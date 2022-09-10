@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - entrypoint of a c program
  * @void - indicates that our method returns no value
  *
