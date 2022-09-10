@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - main function to run the program.
- * @void - void parameter indicates tht the main func returns no value
+/**
+ * main - main uses the puts function.
  *
- * Description: main uses the puts function.
+ * Description: use void main to print using puts
  * Return: returns 0 for success
 */
 
