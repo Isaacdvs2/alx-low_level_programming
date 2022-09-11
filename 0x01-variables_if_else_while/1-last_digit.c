@@ -24,15 +24,15 @@ int main(void)
 
 	if (last_n == 0)
 	{
-		printf("%s %i and is 0\n", mystr, last_n);
+		printf("Last digit of %i is %i and is 0\n", n, last_n);
 	}
 	if ((last_n >= 5) && (last_n < 6) && (last_n != 0))
 	{
-		printf("%s %i and is greater than 5", mystr, last_n);
+		printf("Last digit of %i is %i and is greater than 5\n", n, last_n);
 	}
 	if ((last_n <= 6) && (last_n != 5) && (last_n != 0))
 	{
-		printf("%s %i and is less than 6 and not 0", mystr, last_n);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last_n);
 	}
 	return (0);
 }
