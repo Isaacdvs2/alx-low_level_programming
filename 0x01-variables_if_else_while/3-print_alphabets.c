@@ -20,7 +20,7 @@ int main(void)
 		putchar(ch);
 	}
 
-	for (i = 65; i <= 97; i++)
+	for (i = 65; i <= 90; i++)
 	{
 		putchar(i);
 	}
