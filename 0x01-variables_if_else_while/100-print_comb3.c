@@ -33,7 +33,7 @@ int main(void)
 
 				if (k == 9 && i == 8)
 				{
-					putchar(' ');
+					putchar('\n');
 
 				}
 				else
