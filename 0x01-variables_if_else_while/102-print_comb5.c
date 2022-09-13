@@ -14,49 +14,47 @@
 
 int main(void)
 {
-	int i;
-	int j;
-	int k;
-	int n;
-	int a;
-	int b;
-	int c;
-	int d;
+int i;
+int j;
+int k;
+int n;
+int a;
+int b;
+int c;
+int d;
 
-	for (i = 0; i <= 9; i++)
+for (i = 0; i <= 9; i++)
+{
+	for (k = 0; k <= 8; k++)
 	{
-		for (k = 0; k <= 8; k++)
+		for (n = 0; n <= 9; n++)
 		{
-			for (n = 0; n <= 9; n++)
+			for (j = 1; j <= 9; j++)
 			{
-				for(j = 1; j <= 9; j++)
+				a = i + '0';
+				b = k + '0';
+				c = n + '0';
+				d = j + '0';
+				if (i + k != n + j)
 				{
-					a = i + '0';
-					b = k + '0';
-					c = n + '0';
-					d = j + '0';
-
-					if (b < d)
+					putchar(a);
+					putchar(b);
+					putchar(' ');
+					putchar(c);
+					putchar(d);
+					if (i + k + n + j == 35)
 					{
-						putchar(a);
-						putchar(b);
+						putchar('\n');
+					}
+					else
+					{
+						putchar(',');
 						putchar(' ');
-						putchar(c);
-						putchar(d);
-
-						if ( i + k + n + j == 35)
-						{
-							putchar('\n');
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
 					}
 				}
 			}
 		}
 	}
-	return (0);
+}
+return (0);
 }
