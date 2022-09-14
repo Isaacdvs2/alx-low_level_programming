@@ -35,7 +35,7 @@ for (i = 0; i <= 9; i++)
 				b = k + '0';
 				c = n + '0';
 				d = j + '0';
-				if (i + k < n + j)
+				if (a + b < c + d)
 				{
 					putchar(a);
 					putchar(b);
