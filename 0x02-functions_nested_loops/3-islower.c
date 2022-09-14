@@ -3,7 +3,7 @@
 
 /**
  * _islower - a method to check for lower case chars.
- * c - an int arg.
+ * @c: an int arg.
  *
  * Description: a method to check for lower case chars.
  * Uses the ASCII codes to do so. Lower case chars in
@@ -14,10 +14,7 @@
 
 int _islower(int c)
 {
-	int i;
-	i = 97;
-
-	if (i >= 97 && i <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
@@ -25,5 +22,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-return (c);
 }
