@@ -1,3 +1,2 @@
-## ALX LOW LEVEL PROGRAMMING
-###Repo Description below
-###Folders Description below
+## Welcome to Project 03 ALX SE
+### More functions and nested loops
