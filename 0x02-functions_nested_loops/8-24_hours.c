@@ -33,9 +33,9 @@ for (i = 0; i <= 2; i++)
 				_putchar(d);
 				_putchar('\n');
 
-				if ((a == 2) && (b == 3) && (c == 5) && (d == 9))
+				if (a == 2)
 				{
-					break;
+					b = 3;
 				}
 			}
 		}
