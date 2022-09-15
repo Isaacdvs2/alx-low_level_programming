@@ -16,6 +16,10 @@ int i, j, k, l, a, b, c, d;
 
 for (i = 0; i <= 2; i++)
 {
+	if (i == 2)
+	{
+		j = 3;
+	}
 	for (j = 0; j <= 9; j++)
 	{
 		for (k = 0; k <= 5; k++)
@@ -32,11 +36,6 @@ for (i = 0; i <= 2; i++)
 				_putchar(c);
 				_putchar(d);
 				_putchar('\n');
-
-				if (a == 2)
-				{
-					b = 3;
-				}
 			}
 		}
 	}
