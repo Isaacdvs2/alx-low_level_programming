@@ -28,11 +28,6 @@ for (i = 0; i <= 2; i++)
 				_putchar(k + '0');
 				_putchar(l + '0');
 				_putchar('\n');
-
-				if (i + k + j + l == 19)
-				{
-					break;
-				}
 			}
 		}
 	}
