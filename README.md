@@ -1,2 +1,1 @@
-## Welcome to Project 03 ALX SE
-### More functions and nested loops
+This repo contains tasks to ALX SE course on pointers and Arrays
