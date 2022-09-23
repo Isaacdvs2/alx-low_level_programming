@@ -13,9 +13,9 @@
 char *leet(char *s)
 {
 	int i, j;
-	char enc1 = "aeotl";
-	char enc2 = "AEOTL";
-	char enc3 = "43071";
+	char enc1[] = "aeotl";
+	char enc2[] = "AEOTL";
+	char enc3[] = "43071";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
