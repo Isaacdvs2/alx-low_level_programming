@@ -21,7 +21,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 5; j++)
 		{
-		 if (s[i] == encc1[i] || s[i] == enc2[i])
+		 if (s[i] == enc1[i] || s[i] == enc2[i])
 			 s[i] = enc3[i];
 		 	break;
 		}
