@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * _strncpy - a function to copy a string n times.
+ * _strcpy - a function to copy a string n times.
  * @dest: the array/buffer to copy to.
  * @src: the string to copy.
- * @n: the num of times to copy src to dest.
  *
  * Description: A prog to copy a string src to buffer
  * n times. Returns null if no memeory is allocated to
