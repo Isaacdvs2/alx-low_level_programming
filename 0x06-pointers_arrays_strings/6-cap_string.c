@@ -18,7 +18,7 @@ int flag, i, j;
 for (i = 0; s[i] != '\0'; i++)
 {
 	flag = 0;
-	
+
 	if (i == 0)
 	{
 		flag = 1;
