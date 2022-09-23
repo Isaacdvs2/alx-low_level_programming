@@ -22,18 +22,15 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int a = -1, i;
 
-	while (dest[i] != '\0')
-	{
+	for (i = 0; dest[i] != '\0'; i++)
+	;
+	do {
+		a++;
+		dest[i] = src[a];
 		i++;
-	}
+	} while (src[a] != '\0');
 
-	for (j = -1; src[j] != 0; j++)
-	{
-		dest[i - j] = src[j];
-		i++;
-	}
-	dest[i + j - 1] = '\0';
 return (dest);
 }
