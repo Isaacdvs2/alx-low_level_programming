@@ -10,6 +10,7 @@
  * Return: the sqrt of n as an int. if n does not have a natural
  * sqrt, return -1.
  */
+int square(int n, int rt);
 
 int _sqrt_recursion(int n)
 {
