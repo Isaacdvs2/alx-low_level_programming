@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main -  is the entry point of a c program.
@@ -16,10 +17,9 @@
 
 int main(int argc, char *argv[])
 {
-	while (argc > 1)
+	if (argc >= 1)
 	{
-		_putchar(argv[0]);
+		printf("%s\n", argv[0]);
 	}
-	_putchar('\n');
 return (0);
 }
