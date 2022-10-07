@@ -13,10 +13,9 @@
 
 void *malloc_checked(unsigned int b)
 {
-        void *p;
+int *m = malloc(b);
+if (m == 0)
+	exit(98);
 
-        p = malloc(sizeof(int) * b);
-
-        if (p == NULL || p == 0)
-                exit(98);
-return (p);
+return (m);
+}
