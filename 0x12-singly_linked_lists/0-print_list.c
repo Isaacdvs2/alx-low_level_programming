@@ -2,7 +2,7 @@
 
 /**
  * print_list - a function to print the elements of a linked list.
- * @list_t: the linked list.
+ * @h: the linked list.
  *
  * Description: aprog that accepts a linked list and displays its
  * elements.
@@ -18,12 +18,12 @@ size_t print_list(const list_t *h)
 
 	while (temp != NULL)
 	{
-		if (temp -> str == NULL)
+		if (temp->str == NULL)
 		{
 			printf("(nil)");
 		}
-		printf("[%d] %s\n", temp -> len, temp -> str);
-		temp = temp -> next;
+		printf("[%d] %s\n", temp->len, temp->str);
+		temp = temp->next;
 		i++;
 	}
 return (i);
