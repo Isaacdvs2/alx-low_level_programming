@@ -1,0 +1,24 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * Test a function that executed before or after main.
+ * use attributes for constructor and deconstructor on functions
+ * that execute before and after main.
+ * */
+
+__attribute__ ((constructor)) void b4Main(void)
+{
+	printf("This function will execute b4 main\n");
+}
+
+__attribute__ ((destructor)) void postMain(void)
+{
+	printf("This function executes after main\n");
+}
+
+int main(void)
+{
+	printf("This is main\n");
+return (0);
+}
