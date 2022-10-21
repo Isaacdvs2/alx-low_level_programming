@@ -12,9 +12,10 @@
 size_t print_list(const list_t *h)
 {
 	size_t i;
+	const list_t *temp;
 
 	i = 0;
-	const list_t *temp = h;
+	temp = h;
 
 	while (temp != NULL)
 	{
