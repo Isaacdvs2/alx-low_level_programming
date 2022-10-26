@@ -1,20 +1,22 @@
 #include "lists.h"
 
 /**
- * listint_len - returns the number of elements in a linked lists
- * @h: linked list of type listint_t to traverse
+ * get_nodeint_at_index - returns the node at a certain index in a linked list
+ * @head: first node in the linked list
+ * @index: index of the node to return
  *
- * Return: number of nodes
+ * Return: pointer to the node we're looking for, or NULL
  */
-size_t listint_len(const listint_t *h)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-    size_t num = 0;
+    unsigned int i = 0;
+    listint_t *temp = head;
 
-    while (h)
+    while (temp && i < index)
     {
-        num++;
-        h = h->next;
+        temp = temp->next;
+        i++;
     }
 
-    return (num);
+    return (temp ? temp : NULL);
 }
