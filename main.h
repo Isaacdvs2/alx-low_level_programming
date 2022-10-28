@@ -1,13 +1,20 @@
+#ifndef MAIN_H
+#define MAIN_H
+
+/*
+ * File: main.h
+ *
+ * Desc: Header file containing prototypes for all functions
+ *       written in the 0x13-bit_manipulation directory.
+ */
+
 int _putchar(char c);
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
-int _strlen(char *s);
-void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
-void puts2(char *str);
-void puts_half(char *str);
-void print_array(int *a, int n);
-char *_strcat(char *dest, char *src);
-char *_strncat(char *dest, char *src, int n);
-char *_strncpy(char *dest, char *src, int n);
+unsigned int binary_to_uint(const char *b);
+void print_binary(unsigned long int n);
+int get_bit(unsigned long int n, unsigned int index);
+int set_bit(unsigned long int *n, unsigned int index);
+int clear_bit(unsigned long int *n, unsigned int index);
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
+int get_endianness(void);
+
+#endif /* MAIN_H */

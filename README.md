@@ -1,1 +1,1 @@
-This repo contains tasks to ALX SE course on pointers and Arrays
+ALX SE Bit Manipulation dir
